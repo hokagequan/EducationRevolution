@@ -1,0 +1,15 @@
+{
+  "name": "nodejsdemo",
+  "version": "1.0.0",
+  "description": "use es6 in node",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "babel-node src/server.js",
+    "build": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "mongoose": "latest"
+  }
+}
